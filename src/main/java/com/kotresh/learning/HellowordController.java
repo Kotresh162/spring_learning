@@ -9,4 +9,9 @@ public class HellowordController {
     public String helloworld(){
         return "hello java world!";
     }
+
+    @GetMapping(path="/king")
+    public  String kingmine(){
+        return  "i am the king";
+    }
 }
